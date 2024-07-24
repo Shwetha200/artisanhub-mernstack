@@ -30,11 +30,7 @@ const userSchema = new mongoose.Schema(
       default: "user.png",
     },
 
-    // userImage: {
-    //   type: String,
-    //   default: "user.jpg",
-    // },
-
+  
     verified: {
       type: String,
       default: false,
