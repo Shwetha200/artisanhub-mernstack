@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import moment from "moment";
 
-const Footer = (props) => {
+const AdminFooter = (props) => {
   return (
     <Fragment>
       <footer
@@ -14,4 +14,4 @@ const Footer = (props) => {
   );
 };
 
-export default Footer;
+export default AdminFooter;
