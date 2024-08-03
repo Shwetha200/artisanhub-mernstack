@@ -1,3 +1,4 @@
+
 const express = require("express");
 const app = express();
 require("dotenv").config();
@@ -29,12 +30,12 @@ mongoose
     useCreateIndex: true,
   })
   .then(() =>
-    console.log("==============Mongodb Database Connected Successfully==============")
+    console.log(
+      "==============Mongodb Database Connected Successfully=============="
+    )
   )
   .catch((err) => console.log("Database Not Connected !!!"));
 
-
-  
 // Middleware
 app.use(morgan("dev"));
 app.use(cookieParser());
