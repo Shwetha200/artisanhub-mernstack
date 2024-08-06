@@ -18,6 +18,8 @@ export const fetchData = async (cartListProduct, dispatch) => {
 export const fetchbrainTree = async (getBrainTreeToken, setState) => {
   try {
     let responseData = await getBrainTreeToken();
+    console.log(responseData);
+
     if (responseData && responseData) {
       setState({
         clientToken: responseData.clientToken,

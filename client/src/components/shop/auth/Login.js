@@ -53,7 +53,7 @@ const Login = (props) => {
       <form className="space-y-4">
         <div className="flex flex-col">
           <label htmlFor="name">
-            Username or email address
+            Email address
             <span className="text-sm text-gray-600 ml-1">*</span>
           </label>
           <input
@@ -89,7 +89,7 @@ const Login = (props) => {
           {!data.error ? "" : alert(data.error)}
         </div>
         <div className="flex flex-col space-y-2 md:flex-row md:justify-between md:items-center">
-          <div>
+          {/* <div>
             <input
               type="checkbox"
               id="rememberMe"
@@ -98,10 +98,10 @@ const Login = (props) => {
             <label htmlFor="rememberMe">
               Remember me<span className="text-sm text-gray-600">*</span>
             </label>
-          </div>
-          <a className="block text-gray-600" href="/">
+          </div> */}
+          {/* <a className="block text-gray-600" href="/">
             Lost your password?
-          </a>
+          </a> */}
         </div>
         <div
           onClick={(e) => formSubmit()}
