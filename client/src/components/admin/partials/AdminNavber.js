@@ -168,7 +168,7 @@ const AdminNavber = (props) => {
                       />
                     </svg>
                   </span>
-                  <span>Setting</span>
+                  {/* <span>Setting</span> */}
                 </span>
                 <span
                   onClick={(e) => logout()}
