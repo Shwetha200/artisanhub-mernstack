@@ -161,9 +161,7 @@ const Signup = (props) => {
             />
            
           </div>
-          <a className="block text-gray-600" href="/">
-            Lost your password?
-          </a>
+         
         </div>
         <div
           onClick={(e) => formSubmit()}
