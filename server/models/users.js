@@ -29,8 +29,6 @@ const userSchema = new mongoose.Schema(
       type: String,
       default: "user.png",
     },
-
-  
     verified: {
       type: String,
       default: false,
