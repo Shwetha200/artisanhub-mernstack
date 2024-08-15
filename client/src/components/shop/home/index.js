@@ -22,7 +22,6 @@ const HomeComponent = () => {
     </Fragment>
   );
 };
-//
 
 const Home = (props) => {
   const [data, dispatch] = useReducer(homeReducer, homeState);
