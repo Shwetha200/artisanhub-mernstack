@@ -130,5 +130,5 @@ class User {
   }
 }
 
-// const ordersController = new User();
-// module.exports = ordersController;
+const ordersController = new User();
+module.exports = ordersController;
