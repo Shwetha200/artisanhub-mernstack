@@ -152,7 +152,7 @@ const Signup = (props) => {
           />
           {!data.error ? "" : alert(data.error.cPassword, "red")}
         </div>
-        <div className="flex flex-col space-y-2 md:flex-row md:justify-between md:items-center">
+        {/* <div className="flex flex-col space-y-2 md:flex-row md:justify-between md:items-center">
           <div>
             <input
               type="checkbox"
@@ -162,7 +162,7 @@ const Signup = (props) => {
            
           </div>
          
-        </div>
+        </div> */}
         <div
           onClick={(e) => formSubmit()}
           style={{ background: "#303031" }}
